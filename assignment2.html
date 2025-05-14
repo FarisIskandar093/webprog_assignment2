@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Stack Developer Beginner Experiences | CoolStop Team</title>
+    <meta name="description" content="CoolStop – A creative full-stack developer team building innovative web experiences.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="assignment2.css" as="style">
+    <link rel="preload" href="assignment2.js" as="script">
+    <link rel="stylesheet" href="assignment2.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="team_logo"><h1>CoolStop</h1></div>
+        <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+        <nav class="options" aria-label="Main navigation">
+            <a href="#home" class="suboptions">Intro</a>
+            <a href="#about" class="suboptions">About</a>
+            <a href="#vision" class="suboptions">Vision</a>
+            <a href="#projects" class="suboptions">Projects</a>
+            <a href="#inquiry" class="suboptions">Inquiry</a>
+        </nav>
+    </header>
+    
+
+    <main>
+        <section id="home" class="section">
+            <h1>CoolStop Team</h1>
+            <p>Hello, greetings! We are from <b><i>CoolStop Team Malaysia</i></b>, a group of three beginner web developers. Our team is passionate in designing sophisticated yet intriguing both frontend and backend websites for public usability. We aim at neat website creative works.</p>
+        </section>
+
+        <section id="about" class="section">
+            <h2>About Us</h2>
+            <p>We are a team of passionate and dedicated full-stack developers...</p>
+            <p>Our team consists of Faris Iskandar, Haziq, and Izz Haeil.</p>
+            <div class="individual" onclick="toggleDetails(this)">
+                <h3>Faris Iskandar bin Zamani<span class="arrow">▼</span></h3>
+                <div class="details">
+                    <img src="./fariskandar_gmbr.jpg" style="float: left;" alt="Faris Iskandar" width=auto height=auto>
+                    <p>Currently positioned as our group development leader - An enthusiastic beginner front-end developer focusing deeper more on the front-end UI/UX immersive experiences. Primarily involved in designing websites that are appealing, interactive, easy-to-use, and reliable.</p>
+                    <p><i>"Conducting lots of research currently. We are still improving and improving!"</i></p>
+                </div>
+            </div>
+            <div class="individual" onclick="toggleDetails(this)">
+                <h3>Haziq bin Shahmen<span class="arrow">▼</span></h3>
+                <div class="details">
+                    <img src="./haziqshahmen.jpg" style="float: left;" alt="Haziq" width=auto height=auto>
+                    <p>Our team's first powerhouse. Haziq specializes more depth towards backend development, specifically in developing interactive scripts in web pages and databases. Haziq has strong intuition in numerous automation tools for work.</p>
+                    <p><i>"Making things functional and intriguing. That's how we do it together."</i></p>
+                </div>
+            </div>
+            <div class="individual" onclick="toggleDetails(this)">
+                <h3>Izz Haeil bin Hamishamsul<span class="arrow">▼</span></h3>
+                <div class="details">
+                    <img src="./izzhaeil.jpg" style="float: left;" alt="Izz Haeil" width=auto height=auto>
+                    <p>Our team's second powerhouse. Haeil eagers to improve more on the frontend development, hoping to create immersive virtual experience online. Most of our designs are primarily based on his creative works and enthusiasms.</p>
+                    <p><i>"A good first impression is very important."</i></p>
+                </div>
+            </div>
+            
+            <p>Connect with us:
+                <a href="https://github.com/FarisIskandar093" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </p>
+        </section>
+
+        <section id="vision" class="section">
+            <h2>Our Vision</h2>
+            <p>As mentioned previously, we want to make sure we are able to develop appealing web pages through the eyes of the public. In the emerging web pages technology, users are heavily involved with the Internet surfing. In hopes of accessibility, we want to make sure our group is able to produce high quality websites as possible. We try to take a lead in web development in the future. These are our team's goals:</p>
+            <ul>
+                <li>Designing creative user-friendly websites.</li>
+                <li>Building scalable web applications.</li>
+                <li>Innovative business-focused solutions.</li>
+                <li>Embracing modern web technologies.</li>
+                <li>Integrating with other software technologies.</li>
+            </ul>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>Our Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Simple Website</h3>
+                    <p>Several weeks ago, we developed simple web pages individually...</p>
+                </div>
+                <div class="project-card">
+                    <h3>Portfolio Website</h3>
+                    <p>As you can see on this page, we developed a simple yet neat portfolio website...</p>
+                </div>
+            </div>
+        </section>
+        
+        
+
+        <section id="inquiry" class="section">
+            <h2>For further inquiries...</h2>
+            <ul>
+                <li>coolstop@gmail.com</li>
+                <li>farisiskandar@graduate.utm.my</li>
+                <li>haziq-04@graduate.utm.my</li>
+                <li>izzhaeil@graduate.utm.my</li>
+                <li>+6011-1044 4533 (Faris)</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2025 CoolStop Team. All Rights Reserved.
+    </footer>
+
+    <script src="assignment2.js" defer></script>
+</body>
+</html>
