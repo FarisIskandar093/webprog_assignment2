@@ -169,10 +169,6 @@ main {
     margin-left: 8px;
 }
 
-.individual.active .arrow {
-    transform: rotateY(180deg);
-}
-
 .individual:hover {
     transform: translateY(-5px);
     box-shadow: 0 4px 10px rgba(38, 0, 255, 0.2);
@@ -180,18 +176,10 @@ main {
 
 .details {
     display: block;
-    max-height: 0;
-    opacity: 0;
-    overflow: hidden;
-    transition: max-height 0.5s ease, opacity 0.3s ease;
+    opacity: 1;
+    margin: 10px 0;
     font-size: 16px;
     color: #333;
-}
-
-.individual.active .details {
-    max-height: 300px;
-    opacity: 1;
-    margin: 10px;
 }
 
 /* Projects Grid */
