@@ -32,14 +32,6 @@ window.addEventListener('scroll', () => {
     });
 });
 
-function toggleDetails(element) {
-    element.classList.toggle('active');
-    const arrow = element.querySelector('.arrow');
-    if (arrow) {
-        arrow.textContent = element.classList.contains('active') ? '▲' : '▼';
-    }
-}
-
 document.querySelector('.menu-toggle').addEventListener('click', () => {
     document.querySelector('.options').classList.toggle('show');
 });
